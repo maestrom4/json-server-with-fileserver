@@ -1,0 +1,22 @@
+{
+  "name": "json-server-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port=3300",
+    "serverFileUpload": "npm start --prefix fileServer",
+    "dev": "concurrently \"npm run server\" \"npm run serverFileUpload\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

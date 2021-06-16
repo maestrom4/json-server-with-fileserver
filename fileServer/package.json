@@ -1,0 +1,13 @@
+{
+  "name": "fileServer",
+  "version": "1.0.0",
+  "main": "fileServer.js",
+  "scripts": {
+    "start": "node fileServer.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}
